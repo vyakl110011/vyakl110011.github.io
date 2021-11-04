@@ -213,7 +213,7 @@
 				paddle2.position.z = -FIELD_LENGTH / 2;
 				
 				var ballGeometry = new THREE.SphereGeometry(BALL_RADIUS, 16, 16)
-				const texture = new THREE.TextureLoader().load( 'https://github.com/vyakl110011/vyakl110011.github.io/blob/main/kirill.png' );
+				const texture = new THREE.TextureLoader().load( 'kirill.png' );
 					ballMaterial = new THREE.MeshBasicMaterial( { map: texture } );
 				ball = new THREE.Mesh(ballGeometry, ballMaterial);
 				scene.add(ball);
