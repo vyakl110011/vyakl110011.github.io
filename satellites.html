@@ -43,7 +43,7 @@
                     latitude = satellite.degreesLat(geodetic.latitude)
                     longitude = satellite.degreesLong(geodetic.longitude)
                     marker.setLatLng(new L.LatLng(latitude, longitude))
-                    map.setView([latitude, longitude], 10)
+                    map.setView([latitude, longitude])
                     document.getElementById('latitude').innerHTML = latitude
                     document.getElementById('longitude').innerHTML = longitude
                     await sleep(0)
